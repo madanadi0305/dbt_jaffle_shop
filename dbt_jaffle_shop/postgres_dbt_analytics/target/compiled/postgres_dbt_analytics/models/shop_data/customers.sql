@@ -1,0 +1,1 @@
+select * from dbt_postgres_etl.customers;
