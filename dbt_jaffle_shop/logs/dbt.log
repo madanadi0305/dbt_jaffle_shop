@@ -1,0 +1,90 @@
+[0m14:54:08.355299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001848DCB4290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001848DCB5610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001848DCB58E0>]}
+
+
+============================== 14:54:08.361300 | 99d0f34a-a8c2-49d6-9548-aaf560262bb9 ==============================
+[0m14:54:08.361300 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:54:08.362300 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Amadan\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:54:17.990565 [info ] [MainThread]: A project called jaffle_shop_dbt already exists here.
+[0m14:54:17.991438 [debug] [MainThread]: Command `dbt init` succeeded at 14:54:17.991438 after 9.78 seconds
+[0m14:54:17.992343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001848D3AF440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001848D3AEB40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001848D4C63C0>]}
+[0m14:54:17.992343 [debug] [MainThread]: Flushing usage events
+[0m14:54:18.673949 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:55:35.974126 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213DC877800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213DE4EAC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213E11DBE30>]}
+
+
+============================== 14:55:35.978129 | 980c0bae-bb08-4859-988a-f465af3eda96 ==============================
+[0m14:55:35.978129 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:55:35.978653 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Amadan\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init jaffle_project', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:55:35.998144 [debug] [MainThread]: Starter project path: C:\Users\Amadan\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m14:55:36.023296 [info ] [MainThread]: 
+Your new dbt project "jaffle_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:55:36.024281 [info ] [MainThread]: Setting up your profile.
+[0m14:56:21.650401 [info ] [MainThread]: Profile jaffle_project written to C:\Users\Amadan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:56:21.651493 [debug] [MainThread]: Command `dbt init` succeeded at 14:56:21.651493 after 45.81 seconds
+[0m14:56:21.652017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213E282F9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213E27CFD70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213E28553D0>]}
+[0m14:56:21.652017 [debug] [MainThread]: Flushing usage events
+[0m14:56:22.203530 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:00:50.473114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9DF091100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9DEF2E1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9DE7BE8A0>]}
+
+
+============================== 15:00:50.476113 | b1bbf459-4b6e-4a76-9130-0bf21b1475fa ==============================
+[0m15:00:50.476113 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:00:50.477113 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Amadan\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:00:50.506688 [info ] [MainThread]: dbt version: 1.9.4
+[0m15:00:50.507676 [info ] [MainThread]: python version: 3.12.8
+[0m15:00:50.508674 [info ] [MainThread]: python path: C:\Users\Amadan\AppData\Local\Programs\Python\Python312\python.exe
+[0m15:00:50.508674 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:00:50.565004 [info ] [MainThread]: Using profiles dir at C:\Users\Amadan\.dbt
+[0m15:00:50.566005 [info ] [MainThread]: Using profiles.yml file at C:\Users\Amadan\.dbt\profiles.yml
+[0m15:00:50.566005 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Amadan\dbt_jaffle_shop\dbt_project.yml
+[0m15:00:50.567004 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:00:50.568005 [debug] [MainThread]: Command `dbt debug` failed at 15:00:50.568005 after 0.24 seconds
+[0m15:00:50.568005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9DF4456A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9DF5ADBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9DF5D3200>]}
+[0m15:00:50.568005 [debug] [MainThread]: Flushing usage events
+[0m15:00:51.252806 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:18:33.969020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028484378380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284846B5880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028484FF1970>]}
+
+
+============================== 14:18:33.974020 | e6b7c2c8-a4d5-45f9-8ae6-1a99d4c4ed84 ==============================
+[0m14:18:33.974020 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:18:33.975070 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Amadan\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt build', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:18:33.975588 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Amadan\dbt_jaffle_shop\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:18:33.976621 [debug] [MainThread]: Command `dbt build` failed at 14:18:33.976621 after 0.14 seconds
+[0m14:18:33.976621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028484837680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284850E23F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028484378380>]}
+[0m14:18:33.976621 [debug] [MainThread]: Flushing usage events
+[0m14:18:34.748920 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:47:29.117308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C35B2990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C3526CF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C3EEE060>]}
+
+
+============================== 09:47:29.121307 | 4fada4c8-e51b-41ad-98f5-ecfcc87fafc0 ==============================
+[0m09:47:29.121307 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:47:29.121307 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Amadan\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:47:29.122308 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Amadan\dbt_jaffle_shop\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:47:29.123308 [debug] [MainThread]: Command `dbt run` failed at 09:47:29.123308 after 0.15 seconds
+[0m09:47:29.123308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C2C9A240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C3772AB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C4095040>]}
+[0m09:47:29.123822 [debug] [MainThread]: Flushing usage events
+[0m09:47:29.726623 [debug] [MainThread]: An error was encountered while trying to flush usage events
